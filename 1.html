@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desa Wanadadi</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background-color: #f9ffe6;
+      width: 250px;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      width: 80px;
+      height: 80px;
+      background-color: #90e0ef;
+      border-bottom-right-radius: 100%;
+      z-index: 0;
+    }
+
+    .card img {
+      width: 100px;
+      height: auto;
+      z-index: 1;
+      position: relative;
+      margin-top: 10px;
+    }
+
+    .card h3 {
+      font-size: 14px;
+      font-style: italic;
+      font-weight: bold;
+      margin: 15px 0;
+      z-index: 1;
+      position: relative;
+    }
+
+    .card button {
+      background-color: #71f5e8;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .card button:hover {
+      background-color: #56d8c9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="wanadadi.png">
+    <h3>SELAMAT DATANG<br>DI WEBSATE DESA WANADADI</h3>
+     <button class="button" onclick="location.href='file:///D:/ARSIP%20PENTING!!!!!/siswa/2.html'">NEXT</button>
+  </div>
+
+</body>
+</html>

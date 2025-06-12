@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wisata Dieng</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #d0f4ff, #f9ffe6); /* Gradasi warna */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+    .card {
+      background-color: #f9ffe6;
+      width: 260px;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      width: 80px;
+      height: 80px;
+      background-color: #90e0ef;
+      border-bottom-right-radius: 100%;
+      z-index: 0;
+    }
+
+    .title {
+      font-weight: bold;
+      background-color: #d0f4ff;
+      display: inline-block;
+      padding: 3px 15px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .card img {
+      width: 100%;
+      max-height: 120px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+
+    .card h3 {
+      font-size: 11px;
+      text-align: justify;
+    }
+
+    .button {
+      background-color: #71f5e8;
+      border: none;
+      padding: 10px 20px;
+      margin: 8px auto;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      display: block;
+      width: 100px;
+    }
+
+    .button:hover {
+      background-color: #56d8c9;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="title">WISATA</div>
+    <img src="dieng.jpg" alt="Dieng">
+    <h3>
+      Dieng adalah sebuah dataran tinggi yang terletak di Kabupaten Banjarnegara, Jawa Tengah, yang menyuguhkan panorama alam menakjubkan dan kekayaan budaya yang unik. Dengan ketinggian sekitar 2.000 meter di atas permukaan laut.
+    </h3>
+    <button class="button" onclick="location.href='D:/ARSIP%20PENTING!!!!!/siswa/5.html'">NEXT</button>
+    <button class="button" onclick="location.href='D:/ARSIP%20PENTING!!!!!/siswa/3.html'">BACK</button>
+  </div>
+</body>
+</html>
